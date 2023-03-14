@@ -120,7 +120,6 @@ Basic human need
 Basic human need
 
 * Evolving, just backwards... [Code](#code)
-* Проход на север. [Вы выбрались!](#end)
 
 ## [Code](#code)
 

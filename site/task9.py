@@ -32,4 +32,4 @@ a = [['0.87', None, None, '2001-08-05', 'artur84[at]yahoo.com', '+7 (701) 315-82
      ['0.18', None, None, '2003-01-06', 'keleridi88[at]yahoo.com', '+7 (407) 668-84-67']]
 
 
-print(main(a))
+print(*main(a), sep='\n')
