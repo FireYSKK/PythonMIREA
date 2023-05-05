@@ -5,6 +5,8 @@ from part2task1 import *
 def make_list(*xs):
     if not xs:
         return None
+    elif callable(xs[0]):
+        return xs[0]
     else:
         return pair(xs[0], make_list(*xs[1:]))
 
@@ -22,4 +24,4 @@ if __name__ == "__main__":
     print_list(my_list)
     print_list(head(my_list))
     print_list(tail(my_list))
-    print('fine')
+    print('ok')
